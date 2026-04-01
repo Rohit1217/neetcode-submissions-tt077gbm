@@ -27,7 +27,7 @@ class Solution:
 
             else:
                 stack.append(int(next_val))
-            print(stack)
+
             next_idx+=1
 
         return stack[0]
